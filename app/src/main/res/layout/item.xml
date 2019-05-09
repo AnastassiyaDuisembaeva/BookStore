@@ -15,9 +15,7 @@
             android:id="@+id/imageBook"
             android:layout_width="150dp"
             android:layout_height="300dp"
-            android:layout_marginStart="16dp"
-            android:layout_marginTop="16dp"
-            android:layout_marginBottom="16dp"
+            android:layout_margin="16dp"
             tools:srcCompat="@tools:sample/avatars" />
     </LinearLayout>
     <LinearLayout
@@ -27,38 +25,38 @@
         android:id="@+id/ll2">
         <TextView
             android:id="@+id/name"
-            android:layout_width="0dp"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginStart="16dp"
             android:layout_marginTop="24dp"
-            android:layout_marginEnd="16dp"
+            android:layout_marginRight="16dp"
             tools:text="NameBook" />
 
         <TextView
             android:id="@+id/author"
-            android:layout_width="0dp"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginStart="32dp"
             android:layout_marginTop="24dp"
-            android:layout_marginEnd="16dp"
+            android:layout_marginRight="16dp"
             tools:text="author" />
 
         <TextView
             android:id="@+id/bookGanre"
-            android:layout_width="0dp"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginStart="32dp"
+            android:layout_marginLeft="32dp"
             android:layout_marginTop="8dp"
-            android:layout_marginEnd="16dp"
+            android:layout_marginRight="16dp"
             tools:text="janre" />
 
         <TextView
             android:id="@+id/price"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginStart="32dp"
+            android:layout_marginLeft="32dp"
             android:layout_marginTop="32dp"
-            android:layout_marginEnd="16dp"
+            android:layout_marginRight="16dp"
             tools:text="price" />
     </LinearLayout>
 </LinearLayout>
