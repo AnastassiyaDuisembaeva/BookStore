@@ -20,7 +20,7 @@ public class contacts extends AppCompatActivity {
         MapKitFactory.initialize(this);
 
         setContentView(R.layout.activity_contacts);
-        mapview = (MapView)findViewById(R.id.mapview);
+        mapview = (MapView)findViewById(R.id.map);
         mapview.getMap().move(
                 new CameraPosition(TARGET_LOCATION, 14.0f, 0.0f, 0.0f),
                 new Animation(Animation.Type.SMOOTH, 5),
